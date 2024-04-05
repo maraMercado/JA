@@ -1,0 +1,226 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(255, 255, 255, 0.863);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main-menu {
+    margin: auto;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.main-menu:hover {
+    color: #0033A1;
+}
+
+.logo img {
+    max-width: 14rem;
+    margin: auto;
+}
+
+li {
+        font-size: 1.2rem;
+        list-style: none;
+        display: inline;
+}
+
+nav.nav div.menu.d-none.d-md-block ul.main-menu div.btn-group ul.dropdown-menu li a.dropdown-item:active {
+    background-color: white;
+}
+
+nav.nav div.menu.d-none.d-md-block ul.main-menu li a.items:link {
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+}
+
+nav.nav div.menu.d-none.d-md-block ul.main-menu li a.items:visited {
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+}
+
+nav.nav div.menu.d-none.d-md-block ul.main-menu li a.items:hover {
+    color:#0033A1;
+}
+
+ul.dropdown-menu {
+    border-radius: 0;
+    border-color: #787878;
+}
+
+li .dropdown-item:hover {
+    color:#0033A1;
+}
+
+i {
+    font-size: 1.7rem;
+    color: #787878;
+}
+
+i:hover {
+    color:#052C8C;
+}
+
+.btn.dropdown-toggle {
+    color: rgb(111, 111, 111);
+    font-size: 1.2rem;
+    padding: 0;
+    border:none;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+div.row.alkaline {
+    background-color: #272727;
+}
+
+div.home.col-md-7.order-1 img.botellas {
+    max-width: 100%;
+    transform: translate(-80px);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.row.alkaline h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 600;
+}
+
+.row.pure h1 {
+    color: #052C8C;
+    font-size: 4rem;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 600;
+}
+
+.btn.alkaline {
+    color: white;
+    font-weight: 700;
+    border-color: white;
+    border-radius: 0;
+    border-width: 0.13rem;
+    padding: 1rem 2rem;
+    margin: 2.5rem 0 0 0;
+}
+
+.btn.pure {
+    color:#052C8C;
+    font-weight: 700;
+    border-color:#052C8C;
+    border-radius: 0;
+    border-width: 0.13rem;
+    padding: 1rem 2rem; 
+    margin: 2.5rem 0 0 0;
+}
+
+.btn.alkaline:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn.pure:hover {
+    background-color: #052C8C;
+    color: white;
+}
+
+div.container-fluid div.row.alkaline div.home.col-md-5.order-md-1 a button.btn.alkaline:active {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+div.container-fluid div.row.pure div.home.col-md-5.order-md-1 a button.btn.pure:active {
+    background-color: #052C8C;
+    border-color: #052C8C;
+    color: white;
+}
+
+img.diagonal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transform: translateY(-0.1rem);
+}
+
+.container-fluid.features {
+    padding: 7% 10%; /*4rem 8rem */
+}
+
+.container-fluid.features h1 {
+    color: #0033A1;
+    font-size: 3rem;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.container-fluid.features img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container-fluid p {
+    color: #0033A1;
+    font-size: 1.1rem;
+    font-family: 'Graphik', sans-serif;
+}
+
+.btn.about {
+    border-color: #052C8C;
+    border-radius: 0;
+    border-width: 0.13rem;
+    color:#052C8C;
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    margin-top: -0.5rem;
+}
+
+.btn.about:hover {
+    color: white;
+    background-color: #052C8C;
+}
+
+div.container-fluid.features .btn.about:active {
+    color: white;
+    background-color: #052C8C;
+    border-color: #052C8C;
+}
+
+div.botones .btn {
+    padding: 0;
+    border: none;
+}
+
+div.container-fluid.foot {
+    height: 10rem;
+    background-color: #0033A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
